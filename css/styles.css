@@ -1,0 +1,125 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+    line-height: 2;
+    font-size: x-large;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+hr{
+    border: dotted #b38207 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 7% auto;
+}
+
+thead{
+    color: lightskyblue;
+}
+
+/* heading */
+.big-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* section */
+
+.colored-section {
+    background-color: #0A1828;
+    color: #fff;
+}
+
+/* navigation-bar */
+
+.navbar {
+    background-color:#0A1828;
+    padding: 0% 15%;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.learn-more-button {
+    margin: 5% 3% 5% 0;
+}
+
+.learn-more-button a {
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #b38207;
+}
+
+/* title-section */
+
+#title .container-fluid {
+    padding: 15% 15% 7%;
+    text-align: left;
+}
+
+.title-image {
+    width: auto;
+    border-radius: 100%;  
+}
+
+/* skill-section */
+
+.skills {
+    padding-top: 7rem;
+}
+
+.icon {
+    color: #b38207;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #DAA520;
+}
+
+.gold {
+    color: #b38207;
+}
+
+.dark-royal-blue {
+    color:#0A1828;
+}
+
+.edu {
+    color: #b38207;
+    padding-bottom: 3rem;
+}
+
+/* footer-section */
+#footer {
+    font-size: medium;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
